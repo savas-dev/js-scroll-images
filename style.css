@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+    background: white;
+}
+
+body{
+    margin: 0;
+}
+
+.title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.imageDiv{
+    margin: 15px 25%;
+}
+
+.imageDiv img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loading img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
